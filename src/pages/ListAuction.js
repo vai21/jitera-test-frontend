@@ -187,7 +187,7 @@ function ListAuction() {
                           <td>{element.currentPrice ? currencyFormat(element.currentPrice) : currencyFormat(element.startPrice)}</td>
                           <td>
                             {!element.finish && remainingMinutes < 0 && element.published ? `${Math.abs(remainingMinutes)} minutes remaining` : ''}
-                            {element.finish && remainingMinutes > 0 ? 'Completed': '' }
+                            {element.finish ? 'Completed': '' }
                             {!element.published ? 'Not Yet Started' : ''}
                           </td>
                           <td>
