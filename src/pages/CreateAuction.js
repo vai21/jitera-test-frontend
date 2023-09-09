@@ -52,7 +52,7 @@ function CreateAuction() {
         <Row>
           <Col className="Product-item">
             <div className="Product-item">
-              <h3>Register</h3>
+              <h3>Create New Auction Item</h3>
             </div>
             <div className="Product-text">
               <input className="form-control" placeholder="Item Name" onChange={({target}) => setItemName(target.value)} />
