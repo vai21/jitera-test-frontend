@@ -10,7 +10,7 @@ npm i
 npm run start
 
 ### running in local
-http://localhost:3011
+http://localhost:3000
 
 ### try in live environment
 https://auction.frstechnology.com

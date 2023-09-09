@@ -185,8 +185,11 @@ function ListAuction() {
                           <td>{index + 1}</td>
                           <td>{element.name}</td>
                           <td>{element.currentPrice ? currencyFormat(element.currentPrice) : currencyFormat(element.startPrice)}</td>
-                          <td>{!element.finish && remainingMinutes < 0 && element.published ? `${Math.abs(remainingMinutes)} minutes remaining` : 'Completed'}
-                          {!element.published ? 'Not Yet Started' : ''}</td>
+                          <td>
+                            {!element.finish && remainingMinutes < 0 && element.published ? `${Math.abs(remainingMinutes)} minutes remaining` : ''}
+                            {element.finish && remainingMinutes > 0 ? 'Completed': '' }
+                            {!element.published ? 'Not Yet Started' : ''}
+                          </td>
                           <td>
                             {element.published ? '' :
                               <Button onClick={() => { publishAuction(element._id) }}>Publish</Button>}
