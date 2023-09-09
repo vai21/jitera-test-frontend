@@ -1,0 +1,35 @@
+.Product-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: 100vh;
+}
+
+.Product-item {
+    margin: 20px;
+}
+
+.Product-image:hover {
+    transform: rotateY(180deg);
+}
+
+.Product-image {
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.Product-text {
+    background-color: #F9F9F9;
+    padding-bottom: 20px;
+}
+
+.Product-row {
+    margin-bottom: 30px;
+}
+
+.Product-image-size {
+    width: 322px;
+}
+
+.tanggal-lahir{
+    margin-left: 10px;
+}

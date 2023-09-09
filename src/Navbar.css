@@ -1,0 +1,37 @@
+.Main-Container {
+    min-height: 100vh;
+}
+
+.Navbar-logo {
+    height: 10vmin;
+}
+
+.Navbar-main {
+    background-color: #ffffff !important;
+    font-weight: bold;
+}
+
+.Navbar-center {
+    margin-left: 40px;
+    width: 60%;
+}
+
+.Navbar-right {
+    text-align: right;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.Navbar-link {
+    margin-left: 10px;
+}
+
+.Navbar-phone {
+    float: inline-end;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}

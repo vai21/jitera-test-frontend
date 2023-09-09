@@ -1,0 +1,42 @@
+.Footer-container {
+    background-color: #1975B8;
+}
+
+.Footer-subscribe-newsletter {
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Footer-dont-miss-out {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Footer-subscribe {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Footer-social {
+    background-color: #C59968;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Footer-facebook {
+    margin: 20px;
+}
+
+.Footer-instagram {
+    margin: 20px;
+}
+
+.Footer-link {
+    color: #000000;
+}
