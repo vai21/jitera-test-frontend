@@ -113,6 +113,9 @@ function ListAuction() {
       });
       setSubmitSuccess(true);
       getData();
+      setInterval(function() {
+        window.location.reload();
+      }, 1000);
     } catch(err) {
       setSubmitFailed(true);
     }
