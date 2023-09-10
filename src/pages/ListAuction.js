@@ -132,6 +132,7 @@ function ListAuction() {
     if (!localStorage.getItem('session')) {
       window.location.href = '/login';
     }
+    getData();
     setInterval(function() {
       getData();
     }, 5000)
