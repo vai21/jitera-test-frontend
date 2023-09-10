@@ -52,7 +52,7 @@ function NavbarBootstrap() {
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
                   <Nav>
-                    { session ? <><div>{fullName}</div> <div>Balance: ${balance || 0}</div></> : <Nav.Link href="/login">Login</Nav.Link>}
+                    { session ? <><div>{fullName}</div> <div>Balance: ${parseFloat(balance).toFixed(1) || 0}</div></> : <Nav.Link href="/login">Login</Nav.Link>}
                   </Nav>
                 </Offcanvas.Title>
               </Offcanvas.Header>
