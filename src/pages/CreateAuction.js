@@ -37,6 +37,9 @@ function CreateAuction() {
       console.log(err);
       setSubmitSuccess(false);
       setSubmitFailed(true);
+      if (err?.response?.status === 401) {
+        window.location.href = '/logout';
+      }
     }
   }
 
